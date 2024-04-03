@@ -7,7 +7,7 @@ import PasswordGenerator from "./pages/PasswordGenerator/PasswordGenerator";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/utilities-react/",
       element: <NavBar />,
       children: [
         { index: true, element: <ListTasks /> },
