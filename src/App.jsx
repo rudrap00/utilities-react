@@ -1,11 +1,11 @@
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import CurrencyConverter from "./pages/CurrencyConverter/CurrencyConverter";
 import ListTasks from "./pages/ListTasks/ListTasks";
 import PasswordGenerator from "./pages/PasswordGenerator/PasswordGenerator";
 
 function App() {
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/utilities-react/",
       element: <NavBar />,
