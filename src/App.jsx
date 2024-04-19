@@ -7,7 +7,7 @@ import PasswordGenerator from "./pages/PasswordGenerator/PasswordGenerator";
 function App() {
   const router = createHashRouter([
     {
-      path: "/utilities-react/",
+      path: "/",
       element: <NavBar />,
       children: [
         { index: true, element: <ListTasks /> },
